@@ -1,3 +1,19 @@
+function pname() {
+                    var a = prompt("Name");
+                    var b = prompt("Limit");
+                    var c = 1;
+                    var d = 1;
+                     while(c <= b)
+                    {
+                        document.write(d);
+                        document.write(".");
+                        document.write(a);
+                        document.write("<p></p>");
+                        c++;
+                        d++;
+                     }
+                    }
+
 function feedback() {
             var feedback = prompt("Do You Like Our Page?", "Yes or No");
              switch(feedback)
