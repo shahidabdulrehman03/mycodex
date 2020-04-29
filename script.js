@@ -16,7 +16,7 @@ function feedback() {
               }
 
 
-function table() {
+function pname() {
                     var a = prompt("Name");
                     var b = prompt("Limit");
                     var c = 1;
